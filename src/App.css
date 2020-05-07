@@ -105,7 +105,8 @@ ul {
   position: relative;
 }
 .NewTodo input {
-  padding: 10px 20px;
+  box-sizing: border-box;
+  padding: 10px 80px 10px 20px;
   border: none;
   outline: none;
   width: 330px;
@@ -116,7 +117,7 @@ ul {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 25px;
+  right: 45px;
   padding: 8px 20px;
   border: none;
   outline: none;
