@@ -77,6 +77,10 @@ ul {
   border-radius: 5px;
   border: 2px solid #70bfcc;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.item:hover {
+  background-color: #d7e5ea;
 }
 .item p {
   margin: 10px 20px;
@@ -90,7 +94,9 @@ ul {
   text-decoration: line-through;
   color: white;
 }
-
+.Finished .item:hover {
+  background-color: #ffa2ad;
+}
 .NewTodo {
   margin-top: 30px;
   text-align: center;
@@ -124,4 +130,10 @@ ul {
 .addIcon {
   width: 44px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.addIcon:hover {
+  width: 44px;
+  cursor: pointer;
+  transform: rotate(360deg);
 }
