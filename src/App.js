@@ -52,8 +52,8 @@ class App extends React.Component {
     });
   };
   render() {
-    let noList;
-    noList = this.state.todos.length === 0 &&
+    let noData;
+    noData = this.state.todos.length === 0 &&
       this.state.finished.length === 0 && (
         <img
           className="emty"
@@ -63,9 +63,11 @@ class App extends React.Component {
       );
     return (
       <div className="App">
-        <Header />
+        <Header>
+          <span>BUROLIST</span>
+        </Header>
         <div className="body">
-          {noList}
+          {noData}
           <Upcomming todos={this.state.todos} onClick={this.handleClickItem} />
           <Finished
             finished={this.state.finished}
