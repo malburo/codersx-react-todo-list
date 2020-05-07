@@ -55,6 +55,7 @@ ul {
 .Header {
   padding: 30px;
   text-align: center;
+  cursor: default;
 }
 .Header span {
   font-size: 24px;
@@ -66,6 +67,7 @@ ul {
   font-size: 10px;
   color: #ecf7fa;
   letter-spacing: 2px;
+  cursor: default;
 }
 .item {
   display: flex;
@@ -95,7 +97,7 @@ ul {
   color: white;
 }
 .Finished .item:hover {
-  background-color: #ffa2ad;
+  background-color: #85c7d0;
 }
 .NewTodo {
   margin-top: 30px;
