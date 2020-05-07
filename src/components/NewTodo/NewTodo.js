@@ -23,7 +23,13 @@ class NewTodo extends React.Component {
           <button onClick={onClick}>Add</button>
         </div>
         }
-        <button onClick={this.handleClickShowModel}>+</button>
+        {
+          !this.state.isHidden &&
+        <img 
+        src="https://res.cloudinary.com/malburo/image/upload/v1588841337/plus_r5d4le.svg" 
+        onClick={this.handleClickShowModel} className="addIcon" alt="add"/>
+        }
+
       </div>
     )
   }
